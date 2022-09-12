@@ -1,0 +1,21 @@
+body {
+    background-color: lightblue;
+}
+
+.heading {
+    font-weight: 700;
+    font-size: 3rem;
+    color: white;
+}
+
+.label-heading {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.label-heading:hover{
+    text-decoration: underline;
+    color: blueviolet   ;
+}
+.combobox{
+    height: 45px;
+}

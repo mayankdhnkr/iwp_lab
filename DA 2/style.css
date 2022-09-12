@@ -1,0 +1,13 @@
+body {
+    background-color: rgb(231, 162, 254);
+}
+
+.heading {
+    font-weight: 700;
+    color: white;
+}
+
+.label-heading {
+    font-size: 1.2rem;
+    font-weight: 500;
+}
