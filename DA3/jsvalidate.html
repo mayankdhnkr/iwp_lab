@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        input:invalid {
+            border-color: red;
+        }
+        input:valid {
+            border-color: green;
+        }
+    </style>
+</head>
+<body>
+    <table bgcolor="lightblue" cellpadding="10" border="1" bordercolor="#ffffff">
+        <th colspan="2" bgcolor="cyan">Registration Form Validation using JS</th>
+        <tr>
+            <td>Registration Number</td>
+            <td><input type="text" id="regno" size="9" placeholder="20BCE2221" ></td>
+        </tr>
+        <tr>
+            <td>Username</td>
+            <td><input type="text" id="name" size="30" placeholder="Mayank" ></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td><input type="password" id="pass" size="30" placeholder="Abcd1234$" ></td>
+        </tr>
+        <tr>
+            <td>Email</td>
+            <td><input type="email" id="email" size="30" placeholder="mayank@gmail.com" ></td>
+        </tr>
+        <tr>
+            <td>Mobile Number</td>
+            <td><input type="text" id="phone" size="10" placeholder="9955885588" ></td>
+        </tr>
+        <tr>
+            <td>Date of Birth</td>
+            <td><input type="date" id="dob" size="30" ></td>
+        </tr>
+        <th colspan="2" bgcolor="cyan"><input type="submit" id="submit" value="Submit">  <input type="reset" value="Cancel"></th>
+    </table>
+
+    <script src="app.js"></script>
+</body>
+</html>
