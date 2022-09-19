@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+
+    <style>
+        h1{
+            display: inline;
+            font-size: 3rem;
+        }
+        .time{
+            display: inline;
+            position: relative;
+            left:75vw;
+            color: blue;
+        }
+        .options{
+            display: inline;
+            padding-right: 50px;
+        }
+        th, td {
+                padding-right: 300px;
+                padding-bottom: 50px;
+                background-color: lightgreen;
+            }
+    </style>
+</head>
+<body>
+    <h1>Quiz</h1>
+    <h1 class="time" id="timer">30 sec</h1>
+    
+    <table>
+        <tr>
+            <td>
+                <div class="question">
+                    <h2>Question 1</h2>
+                    <p>Which one is not a Input Type in HTML</p>
+                    <p class="options"><input type="radio">Radio</p>
+                    <p class="options"><input type="radio">Checkbox</p>
+                    <br>
+                    <p class="options"><input type="radio">Input</p>
+                    <p class="options"><input type="radio" id="answer1">H1</p>
+                </div>
+            </td>
+            <td>
+                <div class="question">
+                    <h2>Question 2</h2>
+                    <p>Whats the right extension for a javascript file</p>
+                    <p class="options"><input type="radio" id="answer2">.js</p>
+                    <p class="options"><input type="radio">.javascript</p>
+                    <br>
+                    <p class="options"><input type="radio">.javaS</p>
+                    <p class="options"><input type="radio">.Jscript</p>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="question">
+                    <h2>Question 3</h2>
+                    <p>Whats the course code for IWP</p>
+                    <p class="options"><input type="radio">CSE1002</p>
+                    <p class="options"><input type="radio" id="answer3">CSE3002</p>
+                    <br>
+                    <p class="options"><input type="radio">CSE2001</p>
+                    <p class="options"><input type="radio">CSE4001</p>
+                </div>
+            </td>
+            <td>
+                <div class="question">
+                    <h2>Question 4</h2>
+                    <p>Which is not a looping statement</p>
+                    <p class="options"><input type="radio" id="answer4">if</p>
+                    <p class="options"><input type="radio">for</p>
+                    <br>
+                    <p class="options"><input type="radio">while</p>
+                    <p class="options"><input type="radio">do while</p>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <div class="question">
+                    <h2>Question 5</h2>
+                    <p>Which of the operator is use to find the remainder</p>
+                    <p class="options"><input type="radio">/</p>
+                    <p class="options"><input type="radio">*</p>
+                    <br>
+                    <p class="options"><input type="radio">&</p>
+                    <p class="options"><input type="radio" id="answer5">%</p>
+                </div>
+            </td>
+        </tr>
+    </table>
+    <button type="submit" id="submitBtn">Submit</button>
+
+    <script src="timer.js"></script>
+</body>
+</html>
